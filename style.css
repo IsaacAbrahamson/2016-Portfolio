@@ -42,14 +42,15 @@ body {
   height: 50vh;
   padding: 0px;
   width: 100%;
-  background-image: url("https://dl.dropbox.com/s/nwn7qyplyiet9ip/hKavZCS%20-%20Imgur.jpg?dl=0");
+  background-image: url("media/bg.jpg");
 }
 
 @media screen and (max-width:680px) {
   #header {
     height: 100vh;
-    background-image: url("https://dl.dropbox.com/s/8gzot9jv49tt21n/ws_City_at_Night_1920x1080.jpg?dl=0");
+    background-image: url("media/mobile.jpg");
   }
+
   #text {
     position: absolute;
     top: 50%;
@@ -264,7 +265,7 @@ textarea {
   display: block;
   border: 2px solid #3F5088;
   border-radius: 5px;
-  width: 100%!important;
+  width: 100% !important;
   height: 150px;
   resize: none;
 }
@@ -291,28 +292,34 @@ textarea {
   .content {
     width: 100%;
   }
+
   .content-left {
     float: none;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
+
   .content * {
     font-size: 17px;
   }
+
   .content-right {
     float: none;
-    margin-top: 25px!important;
+    margin-top: 25px !important;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
+
   input {
     font-size: 17px;
   }
+
   textarea {
     font-size: 17px;
   }
+
   .content-right button {
     font-size: 17px;
     width: 30%;
@@ -323,12 +330,15 @@ textarea {
   .content * {
     font-size: 15px;
   }
+
   input {
     font-size: 15px;
   }
+
   textarea {
     font-size: 15px;
   }
+
   .content-right button {
     font-size: 15px;
     width: 50%;
@@ -339,12 +349,15 @@ textarea {
   .content * {
     font-size: 13px;
   }
+
   input {
     font-size: 14px;
   }
+
   textarea {
     font-size: 14px;
   }
+
   .content-right button {
     font-size: 14px;
     width: 70%;
@@ -398,6 +411,7 @@ textarea {
     padding-right: 10px;
     font-size: 15px;
   }
+
   #footer i {
     font-size: 30px;
   }
@@ -409,6 +423,7 @@ textarea {
     padding-right: 10px;
     font-size: 13px;
   }
+
   #footer i {
     font-size: 25px;
   }
@@ -466,19 +481,19 @@ textarea {
 }
 
 .nav-body {
-  background-color: #FFF!important;
+  background-color: #FFF !important;
   border-bottom: 0px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1)!important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
 }
 
 .nav-body * {
-  color: #3F5088!important;
+  color: #3F5088 !important;
   -webkit-transition: color .5s linear;
   transition: color .5s linear;
 }
 
 .nav-body a:hover {
-  color: #eee!important;
+  color: #eee !important;
 }
 
 #nav .icon {
@@ -496,7 +511,7 @@ textarea {
   right: 20px;
   background-color: #FFF;
   min-width: 140px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1)!important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
 }
 
 #mobile-dropdown a {
@@ -520,24 +535,29 @@ textarea {
 
 @media screen and (max-width:1000px) {
   #nav-container {
-    background-color: #FFF!important;
+    background-color: #FFF !important;
     border-bottom: 0px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1)!important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
   }
+
   #nav-container * {
-    color: #3F5088!important;
+    color: #3F5088 !important;
     -webkit-transition: color .5s linear;
     transition: color .5s linear;
   }
+
   #nav-container a:hover {
-    color: #eee!important;
+    color: #eee !important;
   }
+
   #nav {
     width: 90%
   }
+
   #nav li {
     display: none
   }
+
   #nav .icon {
     float: right;
     display: inline-block;
